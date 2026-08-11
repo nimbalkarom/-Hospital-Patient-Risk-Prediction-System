@@ -1,4 +1,4 @@
-# 🏥 Hospital Patient Risk Prediction System
+#  Hospital Patient Risk Prediction System
 
 A production-ready, modular Streamlit application that predicts patient risk
 (High Risk vs. Low Risk) using an **XGBoost** classifier trained on simulated
