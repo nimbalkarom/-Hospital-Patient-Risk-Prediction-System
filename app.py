@@ -27,7 +27,7 @@ from sklearn.metrics import auc as sk_auc
 # ---------------------------------------------------------------------------
 st.set_page_config(
     page_title="Hospital Patient Risk Prediction System",
-    page_icon="🏥",
+    page_icon="",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -183,7 +183,7 @@ st.markdown(
 # ---------------------------------------------------------------------------
 # SIDEBAR — PATIENT INPUT FORM
 # ---------------------------------------------------------------------------
-st.sidebar.header("🩺 Patient Vitals Input")
+st.sidebar.header(" Patient Vitals Input")
 st.sidebar.caption("Enter the patient's current clinical measurements.")
 
 with st.sidebar.form("patient_form"):
